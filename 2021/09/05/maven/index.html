@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>常用maven仓库 - 寻幽</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="ximu,"> 
+    <meta name="description" content="相寻梦里路，飞雨落花中,===============                            javax.servlet.jsp            jsp-api            2.2.1-b0,"> 
+    <meta name="author" content="ximu"> 
+    <link rel="alternative" href="atom.xml" title="寻幽" type="application/atom+xml"> 
+    <link rel="icon" href="/img/favicon.png"> 
+    
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">寻幽</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://ximux.github.io"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">常用maven仓库</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">常用maven仓库</h1>
+        <div class="stuff">
+            <span>九月 05, 2021</span>
+            
+
+        </div>
+        <div class="content markdown">
+            <p>===============<br><dependencies><br>        <!-- jsp依赖 --><br>        <dependency><br>            <groupId>javax.servlet.jsp</groupId><br>            <artifactId>jsp-api</artifactId><br>            <version>2.2.1-b03</version><br>            <scope>provided</scope><br>        </dependency><br>        <!-- servlet依赖 --><br>        <dependency><br>            <groupId>javax.servlet</groupId><br>            <artifactId>javax.servlet-api</artifactId><br>            <version>4.0.1</version><br>            <scope>provided</scope><br>        </dependency><br>        <!-- jstl依赖 --><br>        <dependency><br>            <groupId>javax.servlet.jsp.jstl</groupId><br>            <artifactId>jstl-api</artifactId><br>            <version>1.2</version><br>            <exclusions><br>                <exclusion><br>                    <groupId>javax.servlet</groupId><br>                    <artifactId>servlet-api</artifactId><br>                </exclusion><br>                <exclusion><br>                    <groupId>javax.servlet.jsp</groupId><br>                    <artifactId>jsp-api</artifactId><br>                </exclusion><br>            </exclusions><br>        </dependency><br>        <dependency><br>            <groupId>org.glassfish.web</groupId><br>            <artifactId>jstl-impl</artifactId><br>            <version>1.2</version><br>            <exclusions><br>                <exclusion><br>                    <groupId>javax.servlet</groupId><br>                    <artifactId>servlet-api</artifactId><br>                </exclusion><br>                <exclusion><br>                    <groupId>javax.servlet.jsp</groupId><br>                    <artifactId>jsp-api</artifactId><br>                </exclusion><br>                <exclusion><br>                    <groupId>javax.servlet.jsp.jstl</groupId><br>                    <artifactId>jstl-api</artifactId><br>                </exclusion><br>            </exclusions><br>        </dependency><br>        <!-- mysql依赖 --><br>        <dependency><br>            <groupId>mysql</groupId><br>            <artifactId>mysql-connector-java</artifactId><br>            <version>8.0.23</version><br>        </dependency><br>        <dependency><br>            <groupId>taglibs</groupId><br>            <artifactId>standard</artifactId><br>            <version>1.1.2</version><br>        </dependency><br>        <!-- 单元测试框架 --><br>        <dependency><br>            <groupId>junit</groupId><br>            <artifactId>junit</artifactId><br>            <version>4.13.2</version><br>            <scope>test</scope><br>        </dependency><br>        <!-- C3P0是一个开源的JDBC连接池 --><br>        <dependency><br>            <groupId>com.mchange</groupId><br>            <artifactId>c3p0</artifactId><br>            <version>0.9.5.5</version><br>        </dependency><br>        <!-- 是一种方便我们对JavaBean进行操作的工具类 --><br>        <dependency><br>            <groupId>commons-beanutils</groupId><br>            <artifactId>commons-beanutils</artifactId><br>            <version>1.9.4</version><br>        </dependency><br>        <!-- 是简化数据库操作 --><br>        <dependency><br>            <groupId>commons-dbutils</groupId><br>            <artifactId>commons-dbutils</artifactId><br>            <version>1.7</version><br>        </dependency><br>        <!-- 文件下载与上传 --><br>        <dependency><br>            <groupId>commons-fileupload</groupId><br>            <artifactId>commons-fileupload</artifactId><br>            <version>1.3.3</version><br>        </dependency><br>        <!-- fileuoload的依赖包 --><br>        <dependency><br>            <groupId>commons-io</groupId><br>            <artifactId>commons-io</artifactId><br>            <version>2.11.0</version><br>        </dependency><br>        <!-- beanutils的依赖包,beanutils是一种方便我们对JavaBean进行操作的工具类 --><br>        <dependency><br>            <groupId>commons-logging</groupId><br>            <artifactId>commons-logging</artifactId><br>            <version>1.2</version><br>        </dependency><br>        <!-- 邮件发送 --><br>        <dependency><br>            <groupId>javax.mail</groupId><br>            <artifactId>mail</artifactId><br>            <version>1.4.7</version><br>        </dependency><br>    <!-- MyBatis --><br>    <dependency><br>    <groupId>org.mybatis</groupId><br>    <artifactId>mybatis</artifactId><br>    <version>3.5.6</version><br>    </dependency></p>
+<!-- lombok -->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.20</version>
+    <scope>provided</scope>
+</dependency>
+<!-- spring web mvc -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-webmvc</artifactId>
+    <version>5.3.9</version>
+</dependency>
+    </dependencies>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title='0' data-url='http://m701.music.126.net/20210815172834/39a07505a056d16e3c4529152eb59f47/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/5711142847/551a/1988/31a5/8099d27a341989a653a2ae7b5556fe23.mp3'></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+    <div id='gitalk-container' class="comment link"
+		data-enable='false'
+        data-ae='false'
+        data-ci=''
+        data-cs=''
+        data-r=''
+        data-o=''
+        data-a=''
+        data-d='false'
+    >查看评论</div>
+
+
+    </div>
+    
+        <div class='side'>
+				
+        </div>
+    
+</div>
+
+
+    </div>
+</div>
+</body>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/snow.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</html>
